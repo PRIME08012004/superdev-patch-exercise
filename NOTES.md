@@ -1,0 +1,4 @@
+- Parentheses around the OR fix the precedence bug (this was breaking the status filter).
+- An empty-string status means "no status filter" (portable across databases, avoids NULL typing issues).
+- '!' is the LIKE escape character so that user-typed % and _ are treated literally.
+- Sorting lives in the SQL; pass an unsorted Pageable.
