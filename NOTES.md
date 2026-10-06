@@ -14,4 +14,4 @@ so i applied changes
 ```       
 * Kept the scope focused: no new CRUD operations or endpoints, and the UI stays minimal.
 * The biggest remaining risk that i thought of is in `schema.sql` the priority of every task is by default set to be medium and can be resolved with `Priority not assigned` to know better about what kind is actually `medium` and what is actually `Priority not assigned`
-* i used claude (Web) during running the project locally i was facing JDK mismatch so i simply ask it to give me  bash command for installing JDK-17 and Setting up path for the Home dir
+* i used claude (Web) during running the project locally i was facing JDK mismatch problem so i simply ask it to give me  bash command for installing JDK-17 and Setting up path for the Home dir
